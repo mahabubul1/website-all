@@ -1,44 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>all Documentation</title>
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body> 
- 
- <div class="home-section">
- 	 <div class="heading">
- 	 	<h1> Database Management Documentdation</h1>
- 	 </div>
- </div>
+    <title> database  documentation</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">    
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    
+</head> 
 
-<div class="main-content">
-	<div class="container">
-		<div class="row">	
-			<div class="col-3">
-			    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-			      	<a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-			        <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-			      	<a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-			      	<a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-			    </div>
-		    </div>
-		  <div class="col-9">
-		    <div class="tab-content" id="v-pills-tabContent">
-		      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">...</div>
-		      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">...</div>
-		      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">...</div>
-		      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">...</div>
-		    </div>
-		  </div>
-		</div>
-	</div>
-</div>
-<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="assets/js/popper.min.js"></script>
+<body class="body-green">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"> Database Management Documentation</h1>
+                </div><!--//doc-header-->
+            </div><!--//container-->
+        </header><!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div class="doc-body row">
 
+                <!--=============== slidebar-menu  Start =============== -->
+                <div class="doc-sidebar col-md-3">
+                    <div id="doc-nav" class="doc-nav">
+                        <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                            <a class="nav-link scrollto" href="#installation-section">Installation</a>
+                            <nav class="doc-sub-menu nav flex-column">
+                                <a class="nav-link scrollto" href="#step1">Step One</a>
+                                <a class="nav-link scrollto" href="#step2">Step Two</a>
+                                <a class="nav-link scrollto" href="#step3">Step Three</a>
+                            </nav><!--//nav-->
+                            <a class="nav-link scrollto" href="#video-section">Video</a>
+                        </nav><!--//doc-menu-->
+                    </div>
+                </div>
+                <!--=============== slidebar-menu  End =============== -->
+
+               <!--=================== doc-content  Start =================== -->
+
+                <div class="doc-content col-md-9">
+                    <div class="content-inner">
+                        <section id="installation-section" class="doc-section">
+                            <h2 class="section-title">Installation</h2>
+                            <div id="step1"  class="section-block">
+                                <h3 class="block-title">Step One</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+                                </p>
+                                <div class="code-block">
+                                    <h6>Default code example:</h6>
+                                    <p><code>bower install &lt;package&gt;</code></p>
+                                    <p><code>npm install &lt;package&gt;</code></p>
+                                </div><!--//code-block-->
+                            </div><!--//section-block-->
+                            <div id="step2"  class="section-block">
+                                <h3 class="block-title">Step Two</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                                </p>
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <h6>Un-ordered list example</h6>
+                                        <ul class="list">
+    										<li>Lorem ipsum dolor sit amet.</li>
+    										<li>Aliquam tincidunt mauris.</li>
+    										<li>Ultricies eget vel aliquam libero.
+    											<ul>
+    												<li>Turpis pulvinar</li>
+    												<li>Feugiat scelerisque</li>
+    												<li>Ut tincidunt</li>
+    											</ul>
+    										</li>
+    										<li>Pellentesque habitant morbi.</li>
+    										<li>Praesent dapibus, neque id.</li>
+    									</ul>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <h6>Ordered list example</h6>
+                                        <ol class="list">
+    										<li>Lorem ipsum dolor sit amet.</li>
+    										<li>Aliquam tincidunt mauris.</li>
+    										<li>Ultricies eget vel aliquam libero.
+    											<ul>
+    												<li>Turpis pulvinar</li>
+    												<li>Feugiat scelerisque</li>
+    												<li>Ut tincidunt</li>
+    											</ul>
+    										</li>
+    										<li>Pellentesque habitant morbi.</li>
+    										<li>Praesent dapibus, neque id.</li>
+    									</ol>
+                                    </div>
+                                </div><!--//row-->
+                            </div><!--//section-block-->
+                            <div id="step3"  class="section-block">
+                                <h3 class="block-title">Step Three</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+                                </p>
+                            </div><!--//section-block-->
+                        </section><!--//doc-section-->
+                        <section id="video-section" class="doc-section">
+                            <h2 class="section-title">Video</h2>
+                            <div class="section-block">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ejBkOjEG6F0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </section><!--//doc-section-->
+                    </div><!--//content-inner-->
+                </div>
+                    <!--================== doc-content  Start =================== -->
+            </div><!--//doc-body-->              
+        </div><!--//container-->
+    </div><!--//doc-wrapper-->
+</div><!--//page-wrapper-->
+
+<!--=========== footer Start =========-->
+<footer id="footer" class="footer text-center">
+    <div class="container">
+          <p>@All right reserved <a href="http://codexshaper.com/">codexshaper</a> 2019.</p>
+    </div>
+</footer>
+<!--=========== footer End =========-->
+
+<!-- Main Javascript -->          
+<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>      
+<script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>                                                             
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
-</html>
+</html> 
+
